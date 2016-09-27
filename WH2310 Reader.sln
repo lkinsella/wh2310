@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{E6EAA99F-FE80-44C5-9679-B651B8BB3378}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{F97F5BA7-B48F-4492-9941-41B5BD117B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WH2310 Driver", "Libraries\WH2310 Driver\WH2310 Driver.csproj", "{162E4D29-3852-4C71-AE2B-5E0F32E3FB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather Station", "Libraries\Weather Station\Weather Station.csproj", "{F7E4F697-CAD9-405B-B88F-7F5AAA442C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo Reader", "Applications\Demo Reader\Demo Reader.csproj", "{B66F9DE4-D071-44EA-983B-6A650D642E60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162E4D29-3852-4C71-AE2B-5E0F32E3FB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162E4D29-3852-4C71-AE2B-5E0F32E3FB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162E4D29-3852-4C71-AE2B-5E0F32E3FB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162E4D29-3852-4C71-AE2B-5E0F32E3FB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E4F697-CAD9-405B-B88F-7F5AAA442C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E4F697-CAD9-405B-B88F-7F5AAA442C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E4F697-CAD9-405B-B88F-7F5AAA442C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E4F697-CAD9-405B-B88F-7F5AAA442C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66F9DE4-D071-44EA-983B-6A650D642E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66F9DE4-D071-44EA-983B-6A650D642E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66F9DE4-D071-44EA-983B-6A650D642E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66F9DE4-D071-44EA-983B-6A650D642E60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{162E4D29-3852-4C71-AE2B-5E0F32E3FB15} = {F97F5BA7-B48F-4492-9941-41B5BD117B89}
+		{F7E4F697-CAD9-405B-B88F-7F5AAA442C45} = {F97F5BA7-B48F-4492-9941-41B5BD117B89}
+		{B66F9DE4-D071-44EA-983B-6A650D642E60} = {E6EAA99F-FE80-44C5-9679-B651B8BB3378}
+	EndGlobalSection
+EndGlobal

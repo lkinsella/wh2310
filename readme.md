@@ -1,0 +1,5 @@
+# WH2310
+
+This is a set of classes and applications to work with the Fine Offset WH2310 Automated Weather Station. The classes communicate over USB and by-pass the need to use the factory supplied software WeatherSmart.
+
+It relies upon [HIDAPI](https://github.com/signal11/hidapi)
